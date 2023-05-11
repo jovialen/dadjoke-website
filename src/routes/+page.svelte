@@ -35,6 +35,7 @@
 
   * {
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
   }
 
   section {
@@ -54,6 +55,16 @@
 
     width: 300px;
     min-height: 400px;
+  }
+
+  @media (max-width: 640px) {
+    section {
+      padding: 0.5rem;
+    }
+
+    .container {
+      width: 100%;
+    }
   }
 
   .container > * {
