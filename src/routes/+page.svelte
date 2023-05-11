@@ -8,6 +8,10 @@
   })
 </script>
 
+<svelte:head>
+  <title>Dadjokes</title>
+</svelte:head>
+
 <section>
   <div class="container">
     <h1>
